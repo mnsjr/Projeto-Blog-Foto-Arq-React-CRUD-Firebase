@@ -91,14 +91,7 @@ const Navbar = () => {
 
                 {user && (
                     <li>
-                        <button
-                            onClick={logout}
-                            className={({ isActive }) =>
-                                isActive ? styles.active : ""
-                            }
-                        >
-                            Sair
-                        </button>
+                        <button onClick={logout}>Sair</button>
                     </li>
                 )}
             </ul>

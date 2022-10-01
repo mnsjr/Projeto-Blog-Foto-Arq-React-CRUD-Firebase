@@ -12,7 +12,7 @@ const About = () => {
                 Blog sobre Fotografía profissional técnica de Arquitetura,
                 Interiores e Paisagismo.
             </p>
-            <Link to="/post/create" className="btn">
+            <Link to="/posts/create" className="btn">
                 Criar Post
             </Link>
         </div>
